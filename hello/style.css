@@ -1,0 +1,246 @@
+/* * {
+    box-sizing: border-box;
+  
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f462;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    text-align: center;
+    justify-content: center;
+    top: 120px;
+}
+
+.card img {
+    width: 300px;
+    height: 250px;
+}
+
+.card h1 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.card h5 {
+    font-size: 1em;
+    color: #666;
+}
+
+.card button {
+    background: #141515;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #0056b3;
+
+} */
+
+
+
+// let arr = [0, 0, 0];
+
+// arr.forEach(function (val) {
+//   const card = document.createElement("div");
+//   card.className = "w-[200px] p-10 rounded-2xl";
+//   card.style.marginBottom = "20px";
+//   card.style.backgroundColor = "#e8dbde76";
+//   card.style.gap = "20px 20px 20px";
+
+//   const name = document.createElement("h1");
+//   name.className = "text-3xl font-medium";
+//   name.textContent = "Angle Priya";
+
+//   const subtitle = document.createElement("h4");
+//   subtitle.className = "text-xl text-red-500 my-1";
+//   subtitle.textContent = "Strangers";
+
+//   const desc = document.createElement("p");
+//   desc.textContent =
+//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatum vel deserunt animi molestiae velit.";
+
+//   const btn = document.createElement("button");
+//   btn.className = "text-sm px-4 py-3 bg-blue-500 text-white mt-5 rounded-xl";
+//   btn.textContent = "Add Friends";
+
+//   card.appendChild(name);
+//   card.appendChild(subtitle);
+//   card.appendChild(desc);
+//   card.appendChild(btn);
+
+//   document.querySelector(".cards").appendChild(card);
+// });
+//===================================================================================================================================
+// let arr = [0,0,0,0,0];
+// arr.forEach(function(val){
+//     let card =document.createElement("div");
+//   card.style.width = "200px";
+//  card.style.padding = "20px";
+// card.style.margin = "20px";
+// card.style.borderRadius = "5px";
+// card.style.backgroundColor = "gray";
+// card.style.alignItems = "center";
+// card.style.display = "flex";
+// card.style.flexDirection = "column";
+
+
+// let title =document.createElement("h1");
+// title.textContent = "Abhay";
+
+
+
+// let para =document.createElement("p");
+// para.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+ 
+
+//     let friends = document.createElement("h4");
+//     friends.textContent = "Friends";
+  
+
+
+//     let btn =document.createElement("button");
+//     btn.textContent = "Click Me";
+//     btn.style.backgroundColor = "blue";
+//     btn.style.color = "white";
+//     btn.style.border = "none";
+//     btn.style.width = "90px";
+//     btn.style.padding = "10px 15px";
+//     btn.style.borderRadius = "5px";
+
+//     card.appendChild(title);
+//        card.appendChild(para);
+//        card.appendChild(friends);
+//        card.appendChild(btn);
+// document.querySelector(".cards").appendChild(card);
+// });
+//===================================================================================================================================
+
+// 
+
+// let arr = [0, 0, 0, 0, 0];
+
+// arr.forEach(function (val) {
+//   let card = document.createElement("div");
+
+//  Object.assign(card.style, {
+//     width: "200px",
+//     padding: "20px",
+//     margin: "20px",
+//     borderRadius: "5px",
+//     backgroundColor: "gray",
+//     alignItems: "center",
+//     display: "flex",
+//     flexDirection: "column",
+//   });
+
+//   let title = document.createElement("h1");
+//   title.textContent = "Abhay";
+
+//   let para = document.createElement("p");
+//   para.textContent =
+//     "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+
+//   let friends = document.createElement("h4");
+//   friends.textContent = "Friends";
+
+//   let btn = document.createElement("button");
+//   btn.textContent = "Click Me";
+//   Object.assign(btn.style, {
+//     backgroundColor: "blue",
+//     color: "white",
+//     border: "none",
+//     width: "90px",
+//     padding: "10px 15px",
+//     borderRadius: "5px",
+//     cursor: "pointer",
+//   });
+
+//   card.appendChild(title);
+//   card.appendChild(para);
+//   card.appendChild(friends);
+//   card.appendChild(btn);
+
+//   document.querySelector(".cards").appendChild(card);
+// });
+
+//===================================================================================================================================
+
+// let arr = [0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,0,0,0,0,0,];
+
+// const container = document.querySelector(".cards");
+
+
+// Object.assign(container.style, {
+//   display: "flex",
+//   flexWrap: "wrap",
+//   gap: "20px",
+//     justifyContent: "center",
+// });
+
+// arr.forEach(function (val) {
+//   let card = document.createElement("div");
+
+//   const styles = {
+//     width: "200px",
+//     padding: "20px",
+//     borderRadius: "5px",
+//     backgroundColor: "gray",
+//     alignItems: "center",
+//     display: "flex",
+//     flexDirection: "column",
+//   };
+//   Object.assign(card.style, styles);
+
+
+//   let title = document.createElement("h1");
+//   title.textContent = "Abhay";
+
+  
+//   let para = document.createElement("p");
+//   para.textContent =
+//     "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+
+
+//   let friends = document.createElement("h4");
+//   friends.textContent = "Friends";
+
+  
+//   let btn = document.createElement("button");
+//   btn.textContent = "Click Me";
+//   Object.assign(btn.style, {
+//     backgroundColor: "blue",
+//     color: "white",
+//     border: "none",
+//     width: "90px",
+//     padding: "10px 15px",
+//     borderRadius: "5px",
+//     cursor: "pointer",
+//   });
+
+
+//   card.appendChild(title);
+//   card.appendChild(para);
+//   card.appendChild(friends);
+//   card.appendChild(btn);
+
+//   container.appendChild(card);
+// });
+

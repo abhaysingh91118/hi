@@ -27,7 +27,7 @@ users.forEach(function (user) {
   let card = document.createElement("div");
 
   const styles = {
-    width: "200px",
+    width: "250px",
     padding: "20px",
     borderRadius: "5px",
     backgroundColor: "gray",
